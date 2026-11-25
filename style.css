@@ -16,7 +16,7 @@ textarea {
 
 
 ::selection {
-    background: #f59e0b;
+    background: #a70bf5;
     color: black;
 }
 
@@ -26,7 +26,7 @@ textarea {
 
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -34,14 +34,14 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #35404A;
-    border-radius: 5px;
+    background: #a70bf5;
+    border-radius: 10px;
+    border: 1px solid #101419;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #f59e0b;
+    background: #c45aff;
 }
-
 
 
 
@@ -70,9 +70,9 @@ body {
     color: white;
     background-color: #030712;
     background-image:
-        radial-gradient(circle at 50% 50%, rgba(6, 181, 212, 0.025) 0%, transparent 90%),
-        linear-gradient(to right, rgba(245, 158, 11, 0.1) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(245, 158, 11, 0.1) 1px, transparent 1px);
+        radial-gradient(circle at 50% 50%, rgba(178, 6, 212, 0.1) 0%, transparent 90%),
+        linear-gradient(to right, rgba(179, 11, 245, 0.2) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(179, 11, 245, 0.2) 1px, transparent 1px);
     background-size: 100% 100%, 75px 75px, 75px 75px;
     position: relative;
     padding-bottom: 100px;
@@ -108,7 +108,7 @@ header {
     animation-timeline: scroll(y);
     z-index: 999999;
     backdrop-filter: blur(8px);
-    background-image: radial-gradient(circle, rgba(255, 174, 0, 0.28) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(221, 0, 255, 0.28) 1px, transparent 1px);
     background-size: 45px 45px;
 }
 
@@ -119,12 +119,12 @@ header {
 
     40%,
     45% {
-        border-bottom: 1px solid #f59f0b;
+        border-bottom: 1px solid #a70bf5;
         margin-bottom: 100px;
     }
 
     100% {
-        border-bottom: 1px solid #f59f0b;
+        border-bottom: 1px solid #a70bf5;
         margin-bottom: 100px;
         background-color: transparent;
     }
@@ -194,7 +194,7 @@ header {
 }
 
 .navb ul li a:hover {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .navc {
@@ -211,7 +211,7 @@ header {
     border-radius: 7px;
     white-space: nowrap;
     text-align: center;
-    color: #f59e0b;
+    color: #a70bf5;
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -222,8 +222,8 @@ header {
 }
 
 .GIT:hover {
-    border: 1px solid #f59e0b;
-    background: linear-gradient(-135deg, rgba(245, 159, 11, 0.35), #111);
+    border: 1px solid #a70bf5;
+    background: linear-gradient(-135deg, rgba(226, 11, 245, 0.35), #111);
     transform: translateY(-3px);
 }
 
@@ -243,7 +243,7 @@ header {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #f59e0b;
+    background-color: #a70bf5;
     border-radius: 3px;
     transition: 0.3s;
 }
@@ -290,7 +290,7 @@ header {
 }
 
 .RK {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .HRK {
@@ -306,7 +306,7 @@ header {
 .UIX,
 .cy,
 .pn {
-    color: #f59e0b;
+    color: #a70bf5;
     position: relative;
     display: inline-block;
 }
@@ -320,7 +320,7 @@ header {
     bottom: 0;
     width: 100%;
     height: 3px;
-    background-color: #f59e0b;
+    background-color: #a70bf5;
     transform-origin: left;
     animation: borderExpand 3.5s ease-in-out infinite;
 }
@@ -361,7 +361,7 @@ header {
     padding: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #f59e0b;
+    background-color: #a70bf5;
     color: black;
     border: none;
     font-size: 20px;
@@ -374,9 +374,9 @@ header {
 }
 
 .hero-btn-group-1:hover {
-    color: #f59e0b;
+    color: #a70bf5;
     background-color: transparent;
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     backdrop-filter: blur(1px);
 }
 
@@ -385,7 +385,7 @@ header {
     padding-left: 25px;
     padding-right: 25px;
     color: #CBD5E1;
-    border: 1px solid #f59f0b9c;
+    border: 1px solid #e50bf59c;
     font-size: 20px;
     border-radius: 5px;
     transition: .5s;
@@ -396,8 +396,8 @@ header {
 }
 
 .hero-btn-group-2:hover {
-    color: #f59e0b;
-    border: 1px solid #f59f0b;
+    color: #a70bf5;
+    border: 1px solid #a70bf5;
 }
 
 .hero-btn-and-qy {
@@ -407,7 +407,7 @@ header {
 }
 
 .hero-div1-div {
-    border: 1px solid #f59f0b7a;
+    border: 1px solid #c60bf57a;
     border-radius: 20px;
     width: fit-content;
     text-align: center;
@@ -422,13 +422,13 @@ header {
 .qc {
     font-size: 17px;
     transition: .5s;
-    color: #f59e0b;
+    color: #a70bf5;
     font-weight: 500;
 }
 
 .hero-div1-div:hover {
-    color: #f59e0b;
-    border: 1px solid #f59e0b;
+    color: #a70bf5;
+    border: 1px solid #a70bf5;
 }
 
 .hero-div2 {
@@ -439,16 +439,16 @@ header {
 }
 
 .hero-div2 img {
-    border: 1px solid #f59f0b66;
+    border: 1px solid #c20bf566;
     border-radius: 7px;
-    box-shadow: 0 0 25px rgba(245, 159, 11, 0.25);
+    box-shadow: 0 0 25px rgba(218, 11, 245, 0.25);
 }
 
 .hero-div2-div {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid #f59f0b7a;
+    border: 1px solid #ca0bf57a;
     border-radius: 7px;
     padding: 10px;
     gap: 6px;
@@ -468,8 +468,8 @@ header {
 }
 
 .hero-div2-div:hover {
-    border: 1px solid #f59e0b;
-    color: #f59e0b;
+    border: 1px solid #a70bf5;
+    color: #a70bf5;
 }
 
 
@@ -494,8 +494,8 @@ header {
     width: 1600px;
     margin: 0 auto;
     height: 150px;
-    border-top: 1px solid rgba(245, 159, 11, 0.557);
-    border-bottom: 1px solid rgba(245, 159, 11, 0.557);
+    border-top: 1px solid rgba(214, 11, 245, 0.557);
+    border-bottom: 1px solid rgba(214, 11, 245, 0.557);
     background: rgba(19, 17, 17, 0.171);
     backdrop-filter: blur(2px);
     opacity: 90%;
@@ -549,16 +549,16 @@ header {
 }
 
 .section-div-2 i {
-    color: #f59e0b;
+    color: #a70bf5;
     font-size: 30px;
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     padding: 15px 13px;
     border-radius: 50%;
     text-align: center;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background: linear-gradient(-135deg, #f59f0b60, #111);
+    background: linear-gradient(-135deg, #da0bf560, #111);
 }
 
 .bottom-border {
@@ -576,7 +576,7 @@ header {
 .section-div-2-4:hover .bottom-border {
     height: 3px;
     width: 100px;
-    background: #f59e0b;
+    background: #a70bf5;
 }
 
 
@@ -630,7 +630,7 @@ header {
 
 .AM {
     font-size: 21px;
-    color: #f59e0b;
+    color: #a70bf5;
     letter-spacing: 2px;
 }
 
@@ -643,7 +643,7 @@ header {
 
 .S-3-1-H {
     font-size: 40px;
-    color: #f59e0b;
+    color: #a70bf5;
     display: flex;
     flex-direction: column;
     font-weight: 700;
@@ -662,14 +662,14 @@ header {
 .S-3-1-B-1 {
     padding: 10px;
     color: black;
-    background: #f59e0b;
+    background: #a70bf5;
     border: 1px solid transparent;
     border-radius: 4px;
     transition: .5s;
 }
 
 .S-3-1-B-1:hover {
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     background: transparent;
 }
 
@@ -680,24 +680,24 @@ header {
 }
 
 .S-3-1-B-1:hover a {
-    color: #f59e0b
+    color: #a70bf5;
 }
 
 .S-3-1-B-2 {
     padding: 10px;
     color: black;
     background: transparent;
-    border: 1px solid #f59f0b77;
+    border: 1px solid #ca0bf577;
     border-radius: 4px;
     transition: .5s;
 }
 
 .S-3-1-B-2:hover {
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
 }
 
 .S-3-1-B-2 span {
-    color: #f59e0b;
+    color: #a70bf5;
     padding-right: 7px;
 }
 
@@ -708,7 +708,7 @@ header {
 }
 
 .S-3-1-B-2:hover a {
-    color: #f59e0b
+    color: #a70bf5;
 }
 
 .S-3-1-2 {
@@ -732,7 +732,7 @@ header {
 .S-3-1-2-1 i {
     color: black;
     font-size: 20px;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .S-3-1-2-1 span {
@@ -765,7 +765,7 @@ header {
 }
 
 .info-icon {
-    color: #f59e0b;
+    color: #a70bf5;
     padding: 15px;
     background: #10191D;
     border-radius: 50%;
@@ -775,7 +775,7 @@ header {
 }
 
 .info-icon:hover {
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
 }
 
 .info-text {
@@ -793,7 +793,7 @@ header {
 .info-text strong {
     font-weight: 400;
     font-size: 19px;
-    border-bottom: 1px solid #f59e0b;
+    border-bottom: 1px solid #a70bf5;
     padding-bottom: 5px;
 }
 
@@ -843,7 +843,7 @@ header {
 
 .section-label {
     display: inline-block;
-    color: #f5a900;
+    color: #a70bf5;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 4px;
@@ -860,7 +860,7 @@ header {
 
 .workflow-intro h2 span {
     display: block;
-    color: #f5a900;
+    color: #a70bf5;
 }
 
 .workflow-intro p {
@@ -904,7 +904,7 @@ header {
 }
 
 .workflow-feature:hover {
-    border-color: #f5a900;
+    border-color: #a70bf5;
     transform: translateY(-3px);
 }
 
@@ -915,9 +915,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #f5a900;
+    color: #a70bf5;
     font-size: 18px;
-    border: 1px solid rgba(245, 169, 0, 0.5);
+    border: 1px solid rgba(172, 0, 245, 0.5);
     border-radius: 8px;
 }
 
@@ -966,7 +966,7 @@ header {
 
 .workflow-card:hover {
     transform: translateY(-6px);
-    border-color: #f5a900;
+    border-color: #a70bf5;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
@@ -978,13 +978,13 @@ header {
 }
 
 .step-number {
-    color: #f5a900;
+    color: #a70bf5;
     font-size: 25px;
     font-weight: 700;
 }
 
 .step-icon {
-    color: #f5a900;
+    color: #a70bf5;
     font-size: 25px;
 }
 
@@ -995,7 +995,7 @@ header {
 .card-category {
     display: block;
     margin-bottom: 6px;
-    color: #f5a900;
+    color: #a70bf5;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -1024,7 +1024,7 @@ header {
 }
 
 .workflow-card li::marker {
-    color: #f5a900;
+    color: #a70bf5;
 }
 
 
@@ -1051,7 +1051,7 @@ header {
 
 .label {
     font-size: 21px;
-    color: #f59e0b;
+    color: #a70bf5;
     letter-spacing: 2px;
 }
 
@@ -1072,7 +1072,7 @@ header {
 }
 
 .features-heading-h2-span {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .features-heading p {
@@ -1100,20 +1100,20 @@ header {
     flex-direction: column;
     width: 400px;
     padding: 25px;
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     border-radius: 15px;
-    background: linear-gradient(-140deg, #f59f0b1a, rgba(0, 0, 0, 0.241));
+    background: linear-gradient(-140deg, #c60bf51a, rgba(0, 0, 0, 0.241));
     backdrop-filter: blur(2px);
 }
 
 .feature-icon-2 {
     font-size: 25px;
-    color: #f59e0b;
+    color: #a70bf5;
     padding: 15px;
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     border-radius: 15px;
     width: fit-content;
-    background: linear-gradient(140deg, #f59f0b4b, transparent);
+    background: linear-gradient(140deg, #ce0bf54b, transparent);
 }
 
 .feature-content {
@@ -1207,7 +1207,7 @@ Portfolio section
 }
 
 .portfolio-section-div-1 h2 span {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .portfolio-section-div-1 p {
@@ -1238,14 +1238,14 @@ Portfolio section
 
 .portfolio-section-btn button:hover {
     transform: translateY(-2px);
-    color: #f59e0b;
-    border: 1px solid #f59e0b;
+    color: #a70bf5;
+    border: 1px solid #a70bf5;
 }
 
 .portfolio-section-btn button:focus {
     transform: translateY(-2px);
-    color: #f59e0b;
-    border: 1px solid #f59e0b;
+    color: #a70bf5;
+    border: 1px solid #a70bf5;
 }
 
 .portfolio-section-div-2 {
@@ -1278,7 +1278,7 @@ Portfolio section
 }
 
 .portfolio-section-div-card img {
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     border-radius: 10px;
 }
 
@@ -1289,8 +1289,8 @@ Portfolio section
 }
 
 .portfolio-section-div-card span {
-    color: #f59e0b;
-    border: 1px solid #f59f0b77;
+    color: #a70bf5;
+    border: 1px solid #da0bf577;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1312,7 +1312,7 @@ Portfolio section
 
 .portfolio-section-div-card a {
     padding: 10px;
-    color: #f59e0b;
+    color: #a70bf5;
 
     width: fit-content;
     padding-left: 2px;
@@ -1366,7 +1366,7 @@ Pricing section
 }
 
 .pricing-section-head h2 span {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .pricing-section-head p {
@@ -1395,9 +1395,9 @@ Pricing section
 }
 
 .pricing-section-card-s {
-    background: linear-gradient(-125deg, #f59f0b25, transparent);
-    box-shadow: 0px 0px 15px #f59f0b5a;
-    border: 1px solid #f59f0b6b;
+    background: linear-gradient(-125deg, #a30bf525, transparent);
+    box-shadow: 0px 0px 15px rgba(194, 11, 245, 0.42);
+    border: 1px solid rgba(194, 11, 245, 0.42);
 }
 
 .pricing-section-card h3 {
@@ -1412,9 +1412,9 @@ Pricing section
 }
 
 .pricing-section-card i {
-    color: #f59e0b;
+    color: #a70bf5;
     padding: 15px;
-    border: 1px solid #f59f0bb9;
+    border: 1px solid #ca0bf5b9;
     border-radius: 10px;
     font-size: 25px;
     margin-bottom: 10px;
@@ -1433,13 +1433,13 @@ Pricing section
 }
 
 .pricing-section-card ul li span {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .pricing-section-card a {
     padding: 15px;
     color: #CBD5E1;
-    border: 1px solid #f59f0b9c;
+    border: 1px solid #bb0bf59c;
     border-radius: 10px;
     font-size: 18px;
     transition: .5s;
@@ -1448,14 +1448,14 @@ Pricing section
 }
 
 .pricing-section-card a:hover {
-    border: 1px solid #f59e0b;
-    color: #f59e0b;
+    border: 1px solid #a70bf5;
+    color: #a70bf5;
 }
 
 .S-P-A a {
-    background: #f59e0b;
+    background: #a70bf5;
     color: black;
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
@@ -1466,8 +1466,8 @@ Pricing section
 
 .S-P-A a:hover {
     background: transparent;
-    color: #f59e0b;
-    border: 1px solid #f59f0b9c;
+    color: #a70bf5;
+    border: 1px solid #bb0bf59c;
 }
 
 
@@ -1515,7 +1515,7 @@ Contact section
 }
 
 .contact-section-head h2 span {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .contact-section-head p {
@@ -1546,9 +1546,9 @@ Contact section
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid #f59f0b79;
+    border: 1px solid #c60bf579;
     width: fit-content;
-    color: #f59e0b;
+    color: #a70bf5;
     border-radius: 218px;
     font-weight: 600;
     word-spacing: 2px;
@@ -1584,10 +1584,10 @@ Contact section
 
 .contact-item i {
     padding: 15px;
-    border: 1px solid #f59f0b95;
+    border: 1px solid #be0bf595;
     border-radius: 18px;
     font-size: 22px;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .contact-item div {
@@ -1598,7 +1598,7 @@ Contact section
 }
 
 .contact-item-matter {
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .contact-item-pn {
@@ -1614,7 +1614,7 @@ Contact section
 }
 
 .social-links span {
-    color: #f59e0b;
+    color: #a70bf5;
     font-size: 20px;
 }
 
@@ -1627,19 +1627,19 @@ Contact section
     font-size: 22px;
     color: #c0c6ce;
     padding: 15px;
-    border: 1px solid #f59f0b84;
+    border: 1px solid #970bf584;
     border-radius: 10px;
     transition: .5s;
 }
 
 .social-links div a:hover {
-    border: 1px solid #f59e0b;
+    border: 1px solid #a70bf5;
     transform: translateY(-3px);
 }
 
 .social-links div a i {
     font-size: 22px;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .contact-form {
@@ -1665,7 +1665,7 @@ Contact section
     background-color: rgba(0, 0, 0, 0.241);
     border: none;
     outline: none;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .input-box-s i {
@@ -1687,7 +1687,7 @@ Contact section
 }
 
 .form-group-s span {
-    color: #f59e0b;
+    color: #a70bf5;
     font-size: 20px;
 }
 
@@ -1697,7 +1697,7 @@ Contact section
 }
 
 .form-group-email span {
-    color: #f59e0b;
+    color: #a70bf5;
     font-size: 20px;
 }
 
@@ -1727,7 +1727,7 @@ Contact section
     background-color: rgba(0, 0, 0, 0.241);
     border: none;
     outline: none;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .form-group-subject {
@@ -1736,7 +1736,7 @@ Contact section
 }
 
 .form-group-subject span {
-    color: #f59e0b;
+    color: #a70bf5;
     font-size: 20px;
 }
 
@@ -1766,7 +1766,7 @@ Contact section
     background-color: rgba(0, 0, 0, 0.241);
     border: none;
     outline: none;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .form-group {
@@ -1775,7 +1775,7 @@ Contact section
 }
 
 .form-group span {
-    color: #f59e0b;
+    color: #a70bf5;
     font-size: 20px;
 }
 
@@ -1805,12 +1805,12 @@ Contact section
     background-color: rgba(0, 0, 0, 0.241);
     border: none;
     outline: none;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .contact-submit {
     padding: 10px;
-    background: #f59e0b;
+    background: #a70bf5;
     color: 3000;
     font-size: 20px;
     border: none;
@@ -1895,10 +1895,10 @@ Contact section
     align-items: center;
     justify-content: center;
 
-    border: 1px solid rgba(245, 169, 0, 0.7);
+    border: 1px solid rgba(167, 0, 245, 0.7);
     border-radius: 8px;
 
-    color: #f5a900;
+    color: #a70bf5;
 
     font-size: 11px;
 }
@@ -1913,7 +1913,7 @@ Contact section
 
     margin-bottom: 25px;
 
-    color: #f5a900;
+    color: #a70bf5;
 
     font-size: 17px;
     font-weight: 700;
@@ -1947,7 +1947,7 @@ Contact section
 }
 
 .footer-menu a:hover {
-    color: #f5a900;
+    color: #a70bf5;
     padding-left: 2px;
 }
 
@@ -1975,10 +1975,10 @@ Contact section
     align-items: center;
     justify-content: center;
 
-    border: 1px solid rgba(245, 169, 0, 0.6);
+    border: 1px solid rgba(180, 0, 245, 0.6);
     border-radius: 9px;
 
-    color: #f5a900;
+    color: #a70bf5;
 
     text-decoration: none;
 
@@ -1987,7 +1987,7 @@ Contact section
 
 .social-icon:hover {
     color: #050505;
-    background: #f5a900;
+    background: #a70bf5;
     transform: translateY(-3px);
 }
 
@@ -2017,7 +2017,7 @@ Contact section
 
     font-style: normal;
     font-size: 19px;
-    color: #f59e0b;
+    color: #a70bf5;
 }
 
 .newsletter-input {
@@ -2030,7 +2030,7 @@ Contact section
     border: none;
     outline: none;
 
-    color: #f59e0b;
+    color: #a70bf5;
 
     font-size: 17px;
 
@@ -2049,7 +2049,7 @@ Contact section
     font-size: 17px;
     color: #050505;
 
-    background: #f5a900;
+    background: #a70bf5;
 
     cursor: pointer;
 
@@ -2057,7 +2057,7 @@ Contact section
 }
 
 .newsletter-btn:hover {
-    background: #ffbd26;
+    background: #a70bf5;
 }
 
 .submit-icon {
@@ -2082,7 +2082,7 @@ Contact section
 }
 
 .author-name {
-    color: #f5a900;
+    color: #a70bf5;
 }
 
 .footer-bottom-links {
@@ -2108,7 +2108,7 @@ Contact section
 }
 
 .legal-link:hover {
-    color: #f5a900;
+    color: #a70bf5;
 }
 
 .back-to-top {
@@ -2119,15 +2119,15 @@ Contact section
     align-items: center;
     justify-content: center;
 
-    border: 1px solid #f5a900;
+    border: 1px solid #a70bf5;
     border-radius: 9px;
 
-    color: #f5a900;
+    color: #a70bf5;
 
     cursor: pointer;
 
     transition: 0.3s ease;
-    background: linear-gradient(-40deg, transparent, #f59e0b);
+    background: linear-gradient(-40deg, transparent, #a70bf5);
 }
 
 .top-icon {
@@ -2138,7 +2138,7 @@ Contact section
 
 .back-to-top:hover {
     color: #050505;
-    background: #f5a900;
+    background: #a70bf5;
     transform: translateY(-3px);
 }
 
